@@ -82,7 +82,8 @@ void binary ::chk_bin(void)
 
 void binary ::once_compliment(void)
 {
-    chk_bin();
+    // This is the function which is nesting inside the other function - It's we call nesting function
+    chk_bin(); 
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) == '0')
