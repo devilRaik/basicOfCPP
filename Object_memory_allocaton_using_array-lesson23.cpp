@@ -12,7 +12,7 @@ void displayPrice(void);
 }s;
 
 void Shop :: setPrice(void){
-    cout<<"Enter Id of your item no"<<counter+1<<endl;
+    cout<<"Enter Id of your item no "<<counter+1<<endl;
     cin>>itemId[counter];
     cout<<"Enter Id of your item Price"<<endl;
     cin>>itemPrice[counter];
